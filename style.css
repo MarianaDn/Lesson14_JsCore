@@ -1,0 +1,38 @@
+body{
+    display: flex;
+}
+body > div{
+    width: 40%;
+    margin: 55px auto;
+}
+
+.formBlock{
+    margin-left: 120px;
+}
+.personInformation{
+    margin-right: 120px;
+    margin-top: 75px;
+}
+
+table {
+    width: 100%; 
+    border-spacing: 1px; 
+}
+td, th { 
+    width: auto;
+    padding: 15px; 
+}
+th:nth-child(4){
+    width: 150px;
+}
+th{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #ccc;
+}
+tr{
+    border-top: 1px solid #cccccc;
+}
+
+.editUser{
+    margin-left: -93px;
+}
